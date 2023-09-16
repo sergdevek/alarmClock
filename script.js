@@ -8,7 +8,7 @@ function init(city) {
 
     document.querySelector('#yourCity').innerHTML = city;
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9f7134f045ab6121250dc92a905102b0`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=yourID`)
         .then((resp) => { return resp.json() })
         .then((data) => {
 
