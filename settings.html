@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="styleSettings.css">
+    <link rel="stylesheet" href="fonts/DS-DIGI.TTF">
+</head>
+
+<body>
+    <form id="form" action="/apply/" method="POST">
+        <div id="clock">
+            <div class="info">
+                <div id="weekDay" class="column1 style"></div>
+                <div id="date" class="column1 style"></div>
+                <div id="temp" class="column1">
+                    <button><a href="index.html">Go back</a></button>
+                </div>
+            </div>
+            <div id="city" class="info">
+                <label>Choose your city
+                    <select id="selectId" name="city">
+                        <option value="Verkhnyaya Pyshma" selected>Verkhnyaya Pyshma</option>
+                        <option value="London">London</option>
+                        <option value="Pago Pago">Pago Pago</option>
+                        <option value="Ottava">Ottava</option>
+                        <option value="Moscow">Moscow</option>
+                    </select>
+                </label>
+            </div>
+            <div class="info">
+                <div class="column2 style">
+                    <input type="time" id="timeId" name="time">
+                </div>
+                <div class="column2 style"></div>
+                <div class="column2">
+                    <button id="btn" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="scriptSetting.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alarmClock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/DS-DIGI.TTF">
+</head>
+
+<body>
+    <div id="clock">
+        <div class="info">
+            <div id="weekDay" class="column1 style"></div>
+            <div id="date" class="column1 style"></div>
+            <div id="temp" class="column1">temperature</div>
+        </div>
+        <div id="time" class="info">
+            <p id="current"></p>
+        </div>
+        <div class="info">
+            <div class="column2 style">
+                <img src="alarmIcon.png" width="25px" height="25px" alt="alarmIcon">
+                <p id="timeAlarm"></p>
+            </div>
+            <div class="column2 style">
+                <p id="yourCity">your city</p>
+            </div>
+            <div class="column2">
+                <a href="settings.html">settings</a>
+            </div>
+        </div>
+    </div>
+    <script async src="script.js"></script>
+</body>
+
+</html>
